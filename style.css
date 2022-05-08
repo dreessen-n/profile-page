@@ -61,4 +61,28 @@ li {
     flex: 1 0 auto;
 }
 
+div.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* start of main-left section  */
+
+div.main-left {
+    flex: 0;
+    background-color: #fff;
+}
+
+
+/* end of main-left section */
+
+/* start of main-right section  */
+
+div.main-right {
+    flex: 0;
+    background-color: yellow;
+}
+
+/* end of main-right section  */
+
 /* end of main-content section */
