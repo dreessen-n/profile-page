@@ -14,19 +14,10 @@
 
 /* start of header section: title, menu and btn_signOut */
 
-.header {
-    display: flex;
-    flex: 1 0 auto;
-    background-color: black;
-    color: white;
-    height: 100px;
-    align-items: center;
-}
-
 .nav {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-title {
