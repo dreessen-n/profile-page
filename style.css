@@ -5,3 +5,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+}
+
+.header {
+    flex: 1;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.main-content {
+    background-color: moccasin;
+}
