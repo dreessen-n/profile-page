@@ -73,6 +73,89 @@ div.main-left {
     background-color: #fff;
 }
 
+/* start of profile card block  */
+
+
+.profile-container {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid silver;
+    flex: 0 0 auto;
+    width: 600px;
+    height: 300px;
+}
+
+.profile-head {
+    flex: 1;
+    background-color: teal;
+}
+
+.img_user-icon {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    width: 80px;
+    border: 3px solid silver;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+.name {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    align-items: flex-start;
+}
+
+.img_location-icon {
+    flex: 0 0 auto;
+    width: 15px;
+}
+
+p.location {
+    margin-left: 10px;
+    flex: 0 0 auto;
+}
+
+.job {
+    margin-top: 10px;
+}
+
+.edit {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: flex-end;
+    margin-top: 5px;
+}
+
+.img_edit-profile {
+    width: 15px;
+    height: 15px;
+}
+
+a.edit {
+    margin-left: 10px;
+}
+
+/* end of profile card block  */
+
+
+/* TODO: add education block css here  */
 
 /* end of main-left section */
 
