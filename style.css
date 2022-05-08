@@ -8,15 +8,66 @@
 
 .container {
     display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+/* start of header section: title, menu and btn_signOut */
+
 .header {
-    flex: 1;
+    display: flex;
+    flex: 1 0 auto;
     background-color: black;
     color: white;
     height: 100px;
+    align-items: center;
 }
 
-.main-content {
-    background-color: moccasin;
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
+
+.nav-title {
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    justify-content: space-evenly;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    padding: 4px 10px;
+    margin: 4px;
+}
+
+.btn {
+    background-color: steelblue;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 75px;
+}
+
+/* end of header section  */
+
+/* start of main-content section */
+
+.main-content {
+    background-color: red;
+    flex: 1 0 auto;
+}
+
+/* end of main-content section */
