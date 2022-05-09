@@ -190,27 +190,43 @@ div.main-right {
 .connection-request-card_container {
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
+    background-color: #fff;
+    border: 2px solid silver;
+    width: 300px;
+    height: 200px;
 }
 
 .connection-request-card_card-head {
     display: flex;
+    flex: 1;
     flex-direction: row;
+    background-color: black;
 }
 
 .connection-request-card_numberOfRequest {
-    flex: 1 0 auto;
+    display: flex;
+    color: white;
+    flex: 1;
+    width: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid silver;
+    background-color: silver;
 }
 
 .connection-request-card_title {
-    flex: 1 0 auto;
+    flex: 2;
+    color: white;
 }
 
 .connection-request-card_content {
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
-.connection-reqeust-card_user-request {
+.connection-request-card_user-request {
     display: flex;
     flex-direction: row;
 }
