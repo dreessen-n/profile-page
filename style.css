@@ -220,12 +220,18 @@ div.main-right {
     height: 30px;
     justify-content: center;
     align-items: center;
+    border: 1px solid silver;
+    border-radius: 50%;
+    color: black;
 
 }
 
 .connection-request-card_title {
+    display: flex;
     flex: 2;
     color: white;
+    align-items: center;
+    justify-content: start;
 }
 
 .connection-request-card_content {
@@ -257,24 +263,53 @@ div.main-right {
 .your-connections-card_container {
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
+    background-color: #fff;
+    border: 2px solid silver;
+    width: 300px;
+    height: 200px;
 }
 
-.your-connections-card_card-head {
+.your-connections-card_head {
     display: flex;
+    flex: 1;
     flex-direction: row;
+    background-color: black;
 }
 
 .your-connections-card_numberOfRequest {
-    flex: 0;
+    display: flex;
+    color: white;
+    flex: 1;
+    width: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.your-connections-card_numContainer {
+    display: flex;
+    background-color: silver;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 50%;
+    color: black;
 }
 
 .your-connections-card_title {
-    flex: 0;
+    display: flex;
+    flex: 2;
+    color: white;
+    align-items: center;
+    justify-content: start;
 }
 
 .your-connections-card_content {
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
 .connection-reqeust-card_user-request {
