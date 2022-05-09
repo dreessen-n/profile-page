@@ -168,15 +168,34 @@ a.user-card_edit {
 
 .edu-card_head {
     display: flex;
-    flex: 1;
+    height: 50px;
     background-color: black;
-    color: silver;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
 }
 
 .edu-card_content {
     display: flex;
     flex-direction: column;
     flex: 2;
+    margin-top: 10px;
+    margin-left: 20px;
+} 
+
+h2 {
+    font-size: 22px;
+    margin: 4px;
+}
+
+h3 {
+    color: grey;
+    margin: 4px;
+}
+
+p {
+    font-weight: bold;
+    margin: 4px;
 }
 
 /* end of edu-car here */
@@ -207,7 +226,7 @@ div.main-right {
 
 .connection-request-card_card-head {
     display: flex;
-    flex: 1;
+    height: 50px;
     flex-direction: row;
     background-color: black;
 }
@@ -316,7 +335,7 @@ div.main-right {
 
 .your-connections-card_head {
     display: flex;
-    flex: 1;
+    height: 50px;
     flex-direction: row;
     background-color: black;
 }
