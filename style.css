@@ -70,9 +70,8 @@ div.main-container {
 div.main-left {
     display: flex;
     flex: 1 0 auto;
-    background-color: navajowhite;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 /* start of profile card block  */
@@ -85,6 +84,7 @@ div.main-left {
     flex: 0 0 auto;
     width: 400px;
     height: 275px;
+    margin: 20px;
 }
 
 .user-card_head {
@@ -161,16 +161,21 @@ a.user-card_edit {
     flex-direction: column;
     width: 400px;
     height: 250px;
-    background-color: seagreen;
+    background-color: white;
+    border: 2px solid silver;
+    margin: 20px;
 }
 
 .edu-card_head {
+    display: flex;
     flex: 1;
     background-color: black;
     color: silver;
 }
 
 .edu-card_content {
+    display: flex;
+    flex-direction: column;
     flex: 2;
 }
 
@@ -181,8 +186,10 @@ a.user-card_edit {
 /* start of main-right section  */
 
 div.main-right {
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
-    background-color: yellow;
+    align-items: flex-start;
 }
 
 /* start of connection-request-card */
@@ -193,8 +200,9 @@ div.main-right {
     flex: 0 0 auto;
     background-color: #fff;
     border: 2px solid silver;
-    width: 300px;
+    width: 250px;
     height: 200px;
+    margin: 20px;
 }
 
 .connection-request-card_card-head {
@@ -301,8 +309,9 @@ div.main-right {
     flex: 0 0 auto;
     background-color: #fff;
     border: 2px solid silver;
-    width: 300px;
+    width: 250px;
     height: 200px;
+    margin: 20px;
 }
 
 .your-connections-card_head {
