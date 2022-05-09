@@ -154,8 +154,26 @@ a.user-card_edit {
 
 /* end of profile card block  */
 
+/* Start of edu-card here  */
 
-/* TODO: add education block css here  */
+.edu-card_container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+}
+
+.edu-card_head {
+    flex: 1;
+}
+
+.edu-card_content {
+    flex: 2;
+}
+
+
+
+/* end of edu-car here */
 
 /* end of main-left section */
 
