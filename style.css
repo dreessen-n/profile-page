@@ -272,6 +272,7 @@ div.main-right {
 .connection-request-card_user-request {
     display: flex;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .connection-request-card_user-name {
@@ -285,7 +286,7 @@ div.main-right {
     border: 3px solid silver;
     border-radius: 50%;
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .connection-request-card_acceptRecject {
@@ -329,7 +330,6 @@ div.main-right {
     background-color: #fff;
     border: 2px solid silver;
     width: 250px;
-    height: 200px;
     margin: 20px;
 }
 
@@ -376,9 +376,10 @@ div.main-right {
     margin-top: 10px;
 }
 
-.connection-reqeust-card_user-request {
+.your-connections-card_user-request {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 
 .your-connections-card_user-name {
@@ -392,7 +393,7 @@ div.main-right {
     border: 3px solid silver;
     border-radius: 50%;
     margin-right: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 
