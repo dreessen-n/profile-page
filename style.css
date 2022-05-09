@@ -76,7 +76,7 @@ div.main-left {
 /* start of profile card block  */
 
 
-.profile-container {
+.user-card_container {
     position: absolute;
     top: 10%;
     left: 20%;
@@ -88,12 +88,12 @@ div.main-left {
     height: 300px;
 }
 
-.profile-head {
+.user-card_head {
     flex: 1;
     background-color: teal;
 }
 
-.img_user-icon {
+.img_user-card_user-icon {
     position: absolute;
     top: 55px;
     left: 30px;
@@ -102,7 +102,7 @@ div.main-left {
     border-radius: 50%;
 }
 
-.content {
+.user-card_profile-content {
     display: flex;
     flex: 2;
     flex-direction: column;
@@ -110,46 +110,47 @@ div.main-left {
     justify-content: center;
 }
 
-.name {
+.user-card_name {
     font-size: 30px;
     margin-top: 10px;
 }
 
-.location {
+.user-card_location {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     align-items: flex-start;
 }
 
-.img_location-icon {
+.img_user-card_location-icon {
     flex: 0 0 auto;
     width: 15px;
 }
 
-p.location {
+p.user-card_location {
     margin-left: 10px;
     flex: 0 0 auto;
 }
 
-.job {
+.user-card_job {
     margin-top: 10px;
 }
 
-.edit {
+.user-card_edit {
     display: flex;
     flex: 0 0 auto;
     align-items: flex-end;
     margin-top: 5px;
 }
 
-.img_edit-profile {
+.img_user-card_edit-profile {
     width: 15px;
     height: 15px;
 }
 
-a.edit {
+a.user-card_edit {
     margin-left: 10px;
+    color: teal;
 }
 
 /* end of profile card block  */
