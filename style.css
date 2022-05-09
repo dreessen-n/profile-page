@@ -14,23 +14,31 @@
 
 /* start of header section: title, menu and btn_signOut */
 
-.nav {
-    background-color: black;
+.header {
     display: flex;
+    background-color: black;
     justify-content: center;
 }
 
 .nav-title {
+    display: flexbox;
+    flex: 1;;
     color: white;
     padding: 10px;
     margin-left: 10px;
 }
 
 .nav-links {
-    display: flex;
+    display: flexbox;
+    flex: 1;
     align-items: center;
     justify-items: end;
     justify-content: space-evenly;
+}
+
+.btn_signOut {
+    display: flexbox;
+    flex: 1;
 }
 
 a {
