@@ -187,12 +187,27 @@ div.main-right {
 
 /* start of connection-request-card */
 
+.connection-request-card_container {}
+
+.connection-request-card_card-head {}
+
+.connection-request-card_numberOfRequest {}
+
+.connection-request-card_title {}
+
+.connection-request-card_content {}
+
+.connection-reqeust-card_user-request {}
+
+.connection-request-card_user-name {}
+
 .img_connection-request-card_user-icon {
     width: 30px;
     border: 3px solid silver;
     border-radius: 50%;
 }
 
+.connection-request-card_acceptRejecct {}
 
 /* end of connection-request-card */
 
