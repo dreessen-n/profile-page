@@ -57,7 +57,6 @@ li {
 /* start of main-content section */
 
 .main-content {
-    background-color: red;
     flex: 1 0 auto;
 }
 
@@ -69,8 +68,10 @@ div.main-container {
 /* start of main-left section  */
 
 div.main-left {
-    flex: 0;
-    background-color: #fff;
+    display: flex;
+    flex: 1 0 auto;
+    background-color: seagreen;
+    flex-direction: column;
 }
 
 /* start of profile card block  */
@@ -163,7 +164,7 @@ a.user-card_edit {
 /* start of main-right section  */
 
 div.main-right {
-    flex: 0;
+    flex: 1 0 auto;
     background-color: yellow;
 }
 
