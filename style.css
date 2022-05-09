@@ -161,17 +161,18 @@ a.user-card_edit {
     flex-direction: column;
     width: 400px;
     height: 250px;
+    background-color: seagreen;
 }
 
 .edu-card_head {
     flex: 1;
+    background-color: black;
+    color: silver;
 }
 
 .edu-card_content {
     flex: 2;
 }
-
-
 
 /* end of edu-car here */
 
@@ -183,6 +184,24 @@ div.main-right {
     flex: 1 0 auto;
     background-color: yellow;
 }
+
+/* start of connection-request-card */
+
+.img_connection-request-card_user-icon {
+    width: 30px;
+    border: 3px solid silver;
+    border-radius: 50%;
+}
+
+
+/* end of connection-request-card */
+
+/* start of your-connections-card */
+
+
+
+
+/* end of your-connections-card */
 
 /* end of main-right section  */
 
