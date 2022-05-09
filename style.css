@@ -205,7 +205,10 @@ div.main-right {
     flex: 0;
 }
 
-.connection-request-card_content {}
+.connection-request-card_content {
+    display: flex;
+    flex-direction: column;
+}
 
 .connection-reqeust-card_user-request {
     display: flex;
@@ -227,6 +230,41 @@ div.main-right {
 /* start of your-connections-card */
 
 
+.your-connections-card_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-connections-card_card-head {
+    display: flex;
+    flex-direction: row;
+}
+
+.your-connections-card_numberOfRequest {
+    flex: 0;
+}
+
+.your-connections-card_title {
+    flex: 0;
+}
+
+.your-connections-card_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.connection-reqeust-card_user-request {
+    display: flex;
+    flex-direction: row;
+}
+
+.your-connections-card_user-name {}
+
+.img_your-connections-card_user-icon {
+    width: 30px;
+    border: 3px solid silver;
+    border-radius: 50%;
+}
 
 
 /* end of your-connections-card */
