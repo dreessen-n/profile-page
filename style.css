@@ -238,6 +238,8 @@ div.main-right {
     display: flex;
     flex-direction: column;
     flex: 2;
+    margin-top: 10px;
+    justify-content: flex-start;
 }
 
 .connection-request-card_user-request {
@@ -245,16 +247,49 @@ div.main-right {
     flex-direction: row;
 }
 
-.connection-request-card_user-name {}
+.connection-request-card_user-name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
 
 .img_connection-request-card_user-icon {
     width: 30px;
     border: 3px solid silver;
     border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 30px;
 }
 
-.connection-request-card_acceptRejecct {}
+.connection-request-card_acceptRecject {
+    display: flex;
+    margin-right: 30px;
+}
 
+.connection-request-card_check {
+    display: flex;
+    background-color: silver;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 50%;
+    color: black;
+}
+
+.connection-request-card_X {
+    display: flex;
+    background-color: silver;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 50%;
+    color: black;
+    margin-left: 5px;
+}
 /* end of connection-request-card */
 
 /* start of your-connections-card */
