@@ -198,11 +198,11 @@ div.main-right {
 }
 
 .connection-request-card_numberOfRequest {
-    flex: 0;
+    flex: 1 0 auto;
 }
 
 .connection-request-card_title {
-    flex: 0;
+    flex: 1 0 auto;
 }
 
 .connection-request-card_content {
