@@ -44,7 +44,7 @@
     flex: 1;
 }
 
-a {
+a.nav-links {
     color: white;
     text-decoration: none;
 }
@@ -411,6 +411,19 @@ div.main-right {
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 25px;
+}
+
+.your-connections-card_view-more {
+    display: flex;
+    border-top: 2px solid silver;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+a.your-connections-card_view-more {
+    display: flex;
+    color: blue;
 }
 
 
