@@ -314,26 +314,26 @@ div.main-right {
 
 .connection-request-card_check {
     display: flex;
-    background-color: silver;
-    width: 30px;
-    height: 30px;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
-    border: 1px solid silver;
+    border: 1px solid grey;
     border-radius: 50%;
-    color: black;
+    color: white;
 }
 
 .connection-request-card_X {
     display: flex;
-    background-color: silver;
-    width: 30px;
-    height: 30px;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
-    border: 1px solid silver;
+    border: 1px solid grey;
     border-radius: 50%;
-    color: black;
+    color: white;
     margin-left: 5px;
 }
 /* end of connection-request-card */
