@@ -33,13 +33,13 @@
 .nav-title {
     display: flex;
     align-items: center;
-    flex: .5 0 auto;
+    flex: .5;
     color: white;
 }
 
 .nav-links {
     display: flex;
-    flex: 2 0 auto;
+    flex: 2;
     justify-content: flex-start;
 }
 
@@ -64,7 +64,6 @@ li {
 
 .btn {
     display: flex;
-    flex: 0 0 auto;
     justify-content: center;
     align-items: center;
     background-color: teal;
