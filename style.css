@@ -14,10 +14,18 @@
 
 /* start of header section: title, menu and btn_signOut */
 
+.header_center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: black;
+}
+
 .header_container {
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 830px;
 }
 
 .nav-title {
@@ -41,12 +49,22 @@ a {
     text-decoration: none;
 }
 
+ul {
+    display: flex;
+    align-items: center;
+}
+
 li {
     padding: 4px 10px;
     margin: 4px;
 }
 
+.active {
+    font-size: larger;
+}
+
 .btn {
+    display: flex;
     background-color: steelblue;
     color: white;
     padding: 5px;
