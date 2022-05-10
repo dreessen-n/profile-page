@@ -181,7 +181,7 @@ a.user-card_edit {
     height: 200px;
     background-color: white;
     border: 2px solid silver;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .edu-card_head {
@@ -239,7 +239,7 @@ div.main-right {
     border: 2px solid silver;
     width: 250px;
     height: 150px;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .connection-request-card_card-head {
