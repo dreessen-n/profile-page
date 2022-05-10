@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="wrapper">
+        <div class="header_container">
             <div class="nav-title">
                 <h1 class="nav-title">Profile</h1>
             </div>
@@ -24,116 +24,114 @@
                 <button class="btn">Sign Out</button>
             </div>
         </div>
-        <div class="main-content">
-            <div class="main-container">
-                <div class="main-left">
-                    <!-- user-card  -->
-                    <div class="user-card_container">
-                        <div class="user-card_head">
-                            <img src="./assets/icons/user-circle.png" class="img_user-card_user-icon" alt="user icon">
-                        </div>
-                        <div class="user-card_profile-content">
-                            <div class="user-card_name">
-                                <p>Jane Doe</p>
-                            </div>
-                            <div class="user-card_location">
-                                <img src="./assets/icons/map-marker.png" alt="location icon" class="img_user-card_location-icon">
-                                <p class="user-card_location">Seattle</p>
-                            </div>
-                            <div class="user-card_job">
-                                <p>Developer | Engineer | Problem Solver<br/>Master of Shadows and the Internet!</p>
-                            </div>
-                            <div class="user-card_edit">
-                                <img src="./assets/icons/gear.png" alt="gear icon" class="img_user-card_edit-profile">
-                                <a href="#" class="user-card_edit">edit profile</a>
-                            </div>
-                        </div>
+        <div class="main_container">
+            <div class="main-left">
+                <!-- user-card  -->
+                <div class="user-card_container">
+                    <div class="user-card_head">
+                        <img src="./assets/icons/user-circle.png" class="img_user-card_user-icon" alt="user icon">
                     </div>
-                    <!-- education card -->
-                    <div class="edu-card_container">
-                        <div class="edu-card_head">
-                            Education
+                    <div class="user-card_profile-content">
+                        <div class="user-card_name">
+                            <p>Jane Doe</p>
                         </div>
-                        <div class="edu-card_content">
-                            <h2>Coding Dojo - full Stack Bootcamp</h2>
-                            <h3>Dec 2019 - Mar 2020</h3>
-                            <p>Triple black blet in Python, MERN, and C#</p>
+                        <div class="user-card_location">
+                            <img src="./assets/icons/map-marker.png" alt="location icon" class="img_user-card_location-icon">
+                            <p class="user-card_location">Seattle</p>
+                        </div>
+                        <div class="user-card_job">
+                            <p>Developer | Engineer | Problem Solver<br/>Master of Shadows and the Internet!</p>
+                        </div>
+                        <div class="user-card_edit">
+                            <img src="./assets/icons/gear.png" alt="gear icon" class="img_user-card_edit-profile">
+                            <a href="#" class="user-card_edit">edit profile</a>
                         </div>
                     </div>
                 </div>
-                <div class="main-right">
-                    <!-- connection request card -->
-                    <div class="connection-request-card_container">
-                        <div class="connection-request-card_card-head">
-                            <div class="connection-request-card_numberOfRequest">
-                                <div class="connection-request-card_numContainer">2</div>
+                <!-- education card -->
+                <div class="edu-card_container">
+                    <div class="edu-card_head">
+                        Education
+                    </div>
+                    <div class="edu-card_content">
+                        <h2>Coding Dojo - full Stack Bootcamp</h2>
+                        <h3>Dec 2019 - Mar 2020</h3>
+                        <p>Triple black blet in Python, MERN, and C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-right">
+                <!-- connection request card -->
+                <div class="connection-request-card_container">
+                    <div class="connection-request-card_card-head">
+                        <div class="connection-request-card_numberOfRequest">
+                            <div class="connection-request-card_numContainer">2</div>
+                        </div>
+                        <div class="connection-request-card_title">
+                            Connection Requests
+                        </div>
+                    </div>
+                    <div class="connection-request-card_content">
+                        <div class="connection-request-card_user-request">
+                            <div class="connection-request-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_connection-request-card_user-icon" alt="user icon">
+                                Todd E.
                             </div>
-                            <div class="connection-request-card_title">
-                                Connection Requests
+                            <div class="connection-request-card_acceptRecject"> 
+                                <div class="connection-request-card_check">c</div>
+                                <div class="connection-request-card_X">X</div>
                             </div>
                         </div>
-                        <div class="connection-request-card_content">
-                            <div class="connection-request-card_user-request">
-                                <div class="connection-request-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_connection-request-card_user-icon" alt="user icon">
-                                    Todd E.
-                                </div>
-                                <div class="connection-request-card_acceptRecject"> 
-                                    <div class="connection-request-card_check">c</div>
-                                    <div class="connection-request-card_X">X</div>
-                                </div>
+                        <div class="connection-request-card_user-request">
+                            <div class="connection-request-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_connection-request-card_user-icon" alt="user icon">
+                                Phil K
                             </div>
-                            <div class="connection-request-card_user-request">
-                                <div class="connection-request-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_connection-request-card_user-icon" alt="user icon">
-                                    Phil K
-                                </div>
-                                <div class="connection-request-card_acceptRecject">
-                                    <div class="connection-request-card_check">c</div>
-                                    <div class="connection-request-card_X">X</div>
-                                </div>
+                            <div class="connection-request-card_acceptRecject">
+                                <div class="connection-request-card_check">c</div>
+                                <div class="connection-request-card_X">X</div>
                             </div>
                         </div>
                     </div>
-                    <!-- your connections card -->
-                    <div class="your-connections-card_container">
-                        <div class="your-connections-card_head">
-                            <div class="your-connections-card_numberOfRequest">
-                                <div class="your-connections-card_numContainer">500+</div>
-                            </div>
-                            <div class="your-connections-card_title">
-                                Connection Requests
+                </div>
+                <!-- your connections card -->
+                <div class="your-connections-card_container">
+                    <div class="your-connections-card_head">
+                        <div class="your-connections-card_numberOfRequest">
+                            <div class="your-connections-card_numContainer">500+</div>
+                        </div>
+                        <div class="your-connections-card_title">
+                            Connection Requests
+                        </div>
+                    </div>
+                    <div class="your-connections-card_content">
+                        <div class="your-connections-card_user-request">
+                            <div class="your-connections-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
+                                Adrien D
                             </div>
                         </div>
-                        <div class="your-connections-card_content">
-                            <div class="your-connections-card_user-request">
-                                <div class="your-connections-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
-                                    Adrien D
-                                </div>
-                            </div>
-                            <div class="your-connections-card_user-request">
-                                <div class="your-connections-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
-                                    Anne J
-                                </div>
-                            </div>
-                            <div class="your-connections-card_user-request">
-                                <div class="your-connections-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
-                                    Alayne T
-                                </div>
-                            </div>
-                            <div class="your-connections-card_user-request">
-                                <div class="your-connections-card_user-name">
-                                    <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
-                                    Arry Y
-                                </div>
+                        <div class="your-connections-card_user-request">
+                            <div class="your-connections-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
+                                Anne J
                             </div>
                         </div>
-                        <div class="your-connections-card_view-more">
-                            <a href="#">View More</a>
+                        <div class="your-connections-card_user-request">
+                            <div class="your-connections-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
+                                Alayne T
+                            </div>
                         </div>
+                        <div class="your-connections-card_user-request">
+                            <div class="your-connections-card_user-name">
+                                <img src="./assets/icons/user-circle.png" class="img_your-connections-card_user-icon" alt="user icon">
+                                Arry Y
+                            </div>
+                        </div>
+                    </div>
+                    <div class="your-connections-card_view-more">
+                        <a href="#">View More</a>
                     </div>
                 </div>
             </div>

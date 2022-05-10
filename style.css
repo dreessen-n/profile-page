@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.wrapper {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -14,7 +14,7 @@
 
 /* start of header section: title, menu and btn_signOut */
 
-.header {
+.header_container {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -59,11 +59,7 @@ li {
 
 /* start of main-content section */
 
-.main-content {
-    flex: 1 0 auto;
-}
-
-div.main-container {
+div.main_container {
     display: flex;
     justify-content: center;
 }
