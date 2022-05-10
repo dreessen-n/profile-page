@@ -39,11 +39,6 @@
     justify-content: flex-start;
 }
 
-.btn_signOut {
-    display: flex;
-    flex: 1;
-}
-
 a.nav-links {
     color: white;
     text-decoration: none;
@@ -65,9 +60,10 @@ li {
 
 .btn {
     display: flex;
-    background-color: steelblue;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
     color: white;
-    padding: 5px;
     border: 2px solid black;
     border-radius: 5px;
     width: 75px;
@@ -416,14 +412,14 @@ div.main-right {
 .your-connections-card_view-more {
     display: flex;
     border-top: 2px solid silver;
-    height: 50px;
+    height: 40px;
     align-items: center;
     padding-left: 20px;
 }
 
 a.your-connections-card_view-more {
     display: flex;
-    color: blue;
+    color: teal;
 }
 
 
