@@ -22,26 +22,26 @@
 }
 
 .header_container {
-    background-color: black;
     display: flex;
-    justify-content: space-around;
-    width: 830px;
+    justify-content: flex-start;
+    width: 690px;
 }
 
 .nav-title {
     display: flex;
-    flex: .10;
+    flex: .5;
     color: white;
 }
 
 .nav-links {
     display: flex;
-    flex: .35;
+    flex: 2;
+    justify-content: flex-start;
 }
 
 .btn_signOut {
     display: flex;
-    flex: .25;
+    flex: 1;
 }
 
 a {
