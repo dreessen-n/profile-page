@@ -17,20 +17,23 @@
 .header_container {
     background-color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .nav-title {
     display: flex;
+    flex: .10;
     color: white;
 }
 
 .nav-links {
     display: flex;
+    flex: .35;
 }
 
 .btn_signOut {
     display: flex;
+    flex: .25;
 }
 
 a {
