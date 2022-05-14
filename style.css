@@ -307,15 +307,17 @@ div.main-right {
     margin-left: 25px;
 }
 
-.connection-request-card_acceptRecject {
+.img_connection-request-card_accept {
     display: flex;
     margin-right: 30px;
+    width: 10px;
+    height: 10px;
 }
 
-.connection-request-card_check {
+.img_connection-request-card_cancel {
     display: flex;
     background-color: grey;
-    width: 25px;
+    width: 10px;
     height: 25px;
     justify-content: center;
     align-items: center;
